@@ -1,0 +1,22 @@
+
+*{margin: 0px;padding: 0px;text-decoration: none;}
+video{vertical-align: top;}
+
+body{background-color: black;}
+li{list-style: none;font-family: 'Coming Soon', cursive;}
+a{text-decoration: none;}
+
+header{position: fixed;;width: 100%;height: 85px;border: 0px solid #253342;z-index: 9999;}
+header > span{display: inline-block;margin-top: 30px;margin-left: 325px;}
+h1{color: white; line-height: 100px; float: left;}
+nav{float: right;width: 600px;border: 0px solid red;display: flex;padding-top: 30px;}
+nav > ul{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;margin-left: -50px;}
+nav > ul > li{border: 0px solid green;width: 100px;}
+nav > ul > li > a{color: white;}
+nav > ul > li > a:hover{color: #E26343;transform: scale(1.1);transition: 0.1s;}
+
+
+.back{z-index: 1; position: absolute; margin-left: 326px; margin-top: 110px;}
+
+footer #footer_logo {float: right; margin-right: 280px; margin-top: 100px; margin-bottom: 20px; opacity: 50%;}
+footer #address {float:left; margin-left:280px; margin-top: 100px; margin-bottom: 20px; color: #636363;}

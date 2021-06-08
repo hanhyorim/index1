@@ -1,0 +1,60 @@
+
+*{margin: 0px;padding: 0px;text-decoration: none;}
+video{vertical-align: top;}
+
+body{background-color: black;}
+li{list-style: none;font-family: 'Coming Soon', cursive;}
+a{text-decoration: none;}
+
+header{position: fixed;;width: 100%;height: 85px;border: 0px solid #253342;z-index: 9999;}
+header > span{display: inline-block;margin-top: 30px;margin-left: 325px;}
+h1{color: white; line-height: 100px; float: left;}
+nav{float: right;width: 600px;border: 0px solid red;display: flex;padding-top: 30px;}
+nav > ul{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;margin-left: -50px;}
+nav > ul > li{border: 0px solid green;width: 100px;}
+nav > ul > li > a{color: white;}
+nav > ul > li > a:hover{color: #E26343;transform: scale(1.1);transition: 0.1s;}
+
+
+.al1{z-index: 16;position: absolute;float: left; display: inline-block;padding-top: 315px; padding-left: 264.5px;}
+.mo1{z-index: 15;position: absolute;float: left; display: inline-block;padding-top: 315px; padding-left: 431.79px;}
+.dol1{z-index: 14;position: absolute;float: left; display: inline-block;padding-top: 315px; padding-left: 601.8px;}
+.ca1{z-index: 13;position: absolute;float: left; display: inline-block;padding-top: 615.8px; padding-left: 264.5px;}
+.to1{z-index: 12;position: absolute;float: left; display: inline-block;padding-top: 615.8px; padding-left: 431.8px;}
+
+
+
+
+.video{width: 100%; max-width: 900px; margin: 30px auto;border-radius: 0px;
+  background-color: black; padding: 0px; box-sizing: border-box;
+  box-shadow: 0px 0px 0px black;}
+
+.video-container {position: relative; width: 100%; height: auto;
+  padding-top: 50%;}
+
+iframe {z-index: 1;
+  top: -1%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;}
+
+.display01{width: 100%; height: 800px;background: url('img/promotion_bg.png');background-repeat: no-repeat;background-size: cover;}
+.prom_img{position: absolute;display: inline-block;left: 16%; top: 45%;}
+
+.sns_menu{position: absolute;right: 30px;bottom: 30px;display: inline-block;margin-bottom: 111px;right: 204px;}
+
+
+
+
+
+
+
+
+
+footer #footer_logo {float: right; margin-right: 280px; margin-top: 150px; margin-bottom: 20px; opacity: 50%;}
+footer #address {float:left; margin-left:280px; margin-top: 150px; margin-bottom: 20px; color: #636363;}
+
+.scale-up-center{animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) 4 both}
+
+@keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
